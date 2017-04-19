@@ -80,7 +80,7 @@ aside {
     .transition-all;
     .navbar-header .navbar-brand {
         color: @theme-primary;
-        .sans-serif-font;
+        .kikbits-font;
         font-weight: 700;
         text-transform: uppercase;
         &:hover,
@@ -358,4 +358,18 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @gray-darker;
+}
+
+a.team-member {
+    img {
+        width: 270px;
+        height: 93px;
+        border-radius: 10px;
+        transition: all 0.3s;
+        box-shadow: #585858 3px 3px 10px 0px;
+    }
+
+    img:hover {
+        box-shadow: #2d2d2d 3px 3px 10px 0px;
+    }
 }

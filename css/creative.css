@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 html,
@@ -71,7 +71,7 @@ aside {
 }
 .navbar-default .navbar-header .navbar-brand {
   color: #F05F40;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "KikBits";
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -413,4 +413,14 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #222222;
+}
+a.team-member img {
+  width: 270px;
+  height: 93px;
+  border-radius: 10px;
+  transition: all 0.3s;
+  box-shadow: #585858 3px 3px 10px 0px;
+}
+a.team-member img:hover {
+  box-shadow: #2d2d2d 3px 3px 10px 0px;
 }
